@@ -1,0 +1,74 @@
+git init
+
+git remote add origin "https://github.com/Qaiser-Hussain/git-github.git"
+
+git pull origin master
+
+git status
+
+git add 'learning git.txt'
+
+git commit -m "adding first commit in local repository"
+
+git config user.name Qaiser
+
+git config user.email qaiserui11@gmail.com
+
+git add -A
+
+git commit -a -m "adding 3 files commit in local repository"
+
+git branch firstbranch
+
+git checkout firstbranch
+
+ls
+
+git merge firstbranch
+
+cat 'learning git 4.txt'
+
+git config --local l
+
+git log
+
+git checkout firstbranch
+
+git rebase master
+
+git checkout master
+
+git rebase firstbranch
+
+ssh-keygen
+
+cat '/c/Users/Qaiser Hussain/.ssh/id_rsa.pub'
+
+ssh -T git@github.com
+
+git push origin firstbranch
+
+git log
+
+git checkout efd37cc5 revert.txt
+
+cat revert.txt
+
+==============
+
+ssh-keygen -t rsa -C "qaiserui11@gmail.com"
+
+ssh -T git@github.com
+
+git remote add origin "SSH URL"
+
+git remote rm origin //for delete origin
+
+git rm -r "folder name"
+
+git rm "file name"
+
+git pull origin master -allow-unrelated-histories //solve rebasing error using this command
+
+
+
